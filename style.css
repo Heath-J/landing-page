@@ -26,13 +26,13 @@ body {
     flex: 1;
 }
 
-button, img {
+button, img, .container-4 {
     border-radius: 6px;
 }
 
 a {
   text-decoration: none;
-  color: #013c55; 
+  color: lightcyan;
   }
 
 a:hover {
@@ -40,7 +40,7 @@ a:hover {
 }
 
 a:visited {
-    color: lightcyan;
+    color: #013c55;
   }
 
 a:active {
