@@ -10,15 +10,13 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     background-color: #43a0c9;
-    padding: 12px 160px 12px 116px;
+    padding: 0 160px 12px 116px;
 }
 
 .content {
@@ -26,6 +24,10 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+
+button, img {
+    border-radius: 6px;
 }
 
 a {
@@ -45,34 +47,37 @@ a:active {
     color: blue;
   }
 
-  .links-container {
+.links-container {
+    margin-left: auto;
     display: flex;
     gap: 24px;
+    padding-top: 16px;
   }
 
 .container-1 {
     background-color: #43a0c9;
     display: flex;
     flex: 1;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 160px 60px 160px;
+    padding: 24px 160px 60px 160px;
+    margin-top: 0;
 }
 
 .items {
     background-color: #43a0c9;
     color: #013c55;
-    height: 250px;
+    height: 220px;
     width: 650px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 48px;
+    gap: 24px;
+    margin-right: auto;
 }
 
 .title {
-    font-size: xx-large;
+    font-size: 48px;
     font-weight: bolder;
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); 
     -webkit-background-clip: text;
@@ -80,6 +85,7 @@ a:active {
 }
 
 .subtitle {
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -87,10 +93,13 @@ button {
     color: #013c55;
     font-weight: bold;
     background-color: lightcyan;
-    border-color: hotpink;
-    border-radius: 8px;
-    height: 30px;
-    width: 100px;
+    border-color: #8b00fd;
+    padding: 6px 24px;
+}
+
+button:hover {
+    background-color: teal;
+    color: white;
 }
 
 .container-2 {
@@ -99,16 +108,13 @@ button {
     flex: 1;
     flex-direction: column;
     align-items: center; 
-    padding-top: 54px;
-    padding-bottom: 60px;   
-    
+    padding: 54px 120px 60px 120px;
 }
 
 .info-container {
-    width: 450px;
     text-align: center;
-    font-size: x-large;
-    font-weight: bold;
+    font-size: 36px;
+    font-weight: bolder;
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); 
     -webkit-background-clip: text;
     color: transparent;
@@ -123,14 +129,6 @@ button {
     text-align: center;
     gap: 120px;
     color: #013c55;
-}
-
-.card img {
-    border-radius: 4px;
-}
-
-.card div {
-    width: 120px;
 }
 
 .container-3 {
@@ -163,7 +161,6 @@ button {
     margin: 100px 165px;
     justify-content: space-between;
     align-items: center;
-    border-radius: 8px;
     padding: 32px 64px;
 }
 
@@ -172,11 +169,14 @@ button {
     font-weight: bold;
 }
 
+.action-container {
+    margin-right: auto;
+}
+
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 75px;
-    max-height: 75px;
     background-color: #8b00fd;
+    padding: 20px 0;
 }
