@@ -5,11 +5,13 @@ Landing Page
 Odin Project
 by Heath-J
 
+Created October 2022
 
+------------------------
 
 Artwork credits:-
 
-Heart image by Sydney Troxell:
+Heart of fruit image by Sydney Troxell:
 https://www.pexels.com/photo/heart-fruit-form-708513/
 
 Painted rainbow image by Steve Johnson:
@@ -28,8 +30,13 @@ Assorted color pencil set by Pixabay:
 https://www.pexels.com/photo/assorted-color-pencil-set-459799/
 
 
+-----------------------
 
+List of colors:
+Jasonm23, CC0, via Wikimedia Commons
 
-Alphabet image by Magda Ehlers:
-https://www.pexels.com/photo/alphabet-letter-text-on-black-background-1337382/
+Color wheel:
+László Németh, CC0, via Wikimedia Commons
 
+Color theory:
+Kwamikagami, CC BY-SA 4.0, via Wikimedia Commons
